@@ -35,7 +35,7 @@ jobs:
         
       # Push to Github Pages
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2.1.4 # Überprüfe auf die neueste Version
+        uses: crazy-max/ghaction-github-pages@v2.314.1 # Überprüfe auf die neueste Version
         with:
           build_dir: dist
         env:
